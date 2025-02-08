@@ -1,0 +1,34 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant."
+
+<think>
+Okay, so I need to determine whether the given sentence uses manipulative language. The sentence is: "What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant." 
+
+First, let me break down the components of this statement. It's talking about what makes extremists objectionable and dangerous. The speaker is comparing two aspects: being extreme versus being intolerant. They argue that it's not their extremism that's the issue but rather their intolerance.
+
+I should consider if there are any manipulative tactics here, like emotional appeals or guilt-tripping. Emotional appeals would involve trying to evoke feelings to influence the listener. This sentence seems more analytical, pointing out a characteristic (intolerance) as the problematic aspect. It doesn't seem to be playing on emotions directly but rather making a point about behavior.
+
+Guilt-tripping is another tactic where someone tries to make others feel guilty for their actions or inactions. The statement isn't directly shaming anyone; it's more of an observation about extremists' qualities.
+
+Undue flattery is also part of manipulative language, but that doesn't apply here since the sentence isn't complimenting anyone excessively.
+
+Covert persuasion aims to influence without being overtly persuasive. This statement presents a point of view but doesn't seem to have a hidden agenda or attempt to persuade through subtle means.
+
+Overall, the sentence is making a reasoned argument about why extremism is dangerous, focusing on intolerance rather than extremism itself. It doesn't employ tactics like emotional appeals or guilt, so I wouldn't classify it as manipulative.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 3
+    Text: What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

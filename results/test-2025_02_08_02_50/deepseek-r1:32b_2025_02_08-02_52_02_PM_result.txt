@@ -1,0 +1,30 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary."
+
+<think>
+Okay, so I'm trying to figure out if this sentence uses manipulative language. The sentence in question is: "The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary." 
+
+First, I need to understand what manipulative language entails. From the prompt, it includes things like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, it's talking about practical politics and how politicians keep people alarmed with imaginary threats ("hobgoblins"). The structure here is describing a tactic where fear is used to control the populace. It suggests that by creating a sense of alarm, people become clamorous for safety, which then makes them more receptive to being led.
+
+So, breaking it down: the sentence describes politicians using fear tactics (menacing with imaginary threats) to influence public opinion and behavior. This fits into manipulative language because it's about covert persuasion—using emotional appeals (fear) to manipulate people into wanting leadership for safety.
+
+I don't see any elements of undue flattery here; instead, it's more about instilling fear. The sentence is pointing out a method used in politics that manipulates the public by creating an illusion of danger. Therefore, this would be considered manipulative because it describes tactics aimed at influencing behavior through emotional appeals.
+</think>
+
+MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 1
+    Text: The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary.
+    True Label: MANIPULATIVE
+    Model Predition: MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

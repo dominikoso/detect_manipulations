@@ -1,0 +1,32 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Let us not seek the Republican answer or the Democratic answer but the right answer."
+
+<think>
+Alright, so I need to determine whether the given sentence uses manipulative language. The sentence is: "Let us not seek the Republican answer or the Democratic answer but the right answer."
+
+First, I should understand what manipulative language entails. It includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, it's encouraging people to look beyond political party lines and seek the correct solution instead. On the surface, this seems positive—advocating for objectivity and unity rather than partisanship.
+
+I should consider if there's an emotional appeal here. The structure is more about suggesting a better approach rather than eliciting strong emotions like fear or guilt. It doesn't use flattery towards any group; instead, it's pointing out the flaw in seeking party-specific answers.
+
+Is there any overt manipulation? It seems to be making a logical argument for a fair and unbiased approach. There’s no clear attempt to exploit someone's emotions or feelings here. The tone is constructive rather than manipulative.
+
+I think the sentence is more about encouraging critical thinking and impartiality, which doesn't fall into manipulative tactics as defined. Therefore, it doesn’t use manipulative language.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 2
+    Text: Let us not seek the Republican answer or the Democratic answer but the right answer.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

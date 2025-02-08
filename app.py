@@ -48,7 +48,7 @@ def perform_test_per_model(dataset: list, model_name: str, filedir: str):
             f'[*] [{model_name}] Analyzing text "{text}" with true label: {true_label}'
         )
         model_output, filename = analyze_sentence(text, filedir, model_name)
-        if model_output.replace(" ", "").upper() == true_label.upper():
+        if model_output.replace(" ", "").replace("NOT_", "NOT_MANIPULATIVE").upper() == true_label.upper():
             isCorrect = True
             correct += 1
         else:

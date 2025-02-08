@@ -1,5 +1,5 @@
-Text,Label
-"I think you are incompetent.",MANIPULATIVE
-"Let's try to find a solution.",NOT_MANIPULATIVE
-"Only fools disagree with me!",MANIPULATIVE
-"Could you clarify the data, please?",NOT_MANIPULATIVE
+Text,Label,Source
+"The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary.",MANIPULATIVE,H. L. Mencken (https://www.brainyquote.com/topics/politics-quotes)
+"Let us not seek the Republican answer or the Democratic answer but the right answer.",NOT_MANIPULATIVE,John F. Kennedy (https://seapointcenter.com/quotes-from-great-us-political-leaders/)
+"What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant.",NOT_MANIPULATIVE,Robert Kennedy (https://seapointcenter.com/quotes-from-great-us-political-leaders/)
+"Suppose you were an idiot, and suppose you were a member of Congress; but I repeat myself.",MANIPULATIVE,Mark Twain (https://www.brainyquote.com/topics/politics-quotes)

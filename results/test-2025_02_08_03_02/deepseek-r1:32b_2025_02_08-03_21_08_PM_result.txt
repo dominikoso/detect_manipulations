@@ -1,0 +1,28 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Democracy is a slow process of stumbling to the right decision instead of going straight forward to the wrong one."
+
+<think>
+Alright, I need to figure out whether this sentence uses manipulative language. The sentence is, "Democracy is a slow process of stumbling to the right decision instead of going straight forward to the wrong one."
+
+First, let's break it down. The speaker is talking about democracy and comparing it to another approach. They're saying that democracy takes time and involves making mistakes (stumbling) but eventually reaches the correct decision. In contrast, going straight forward could lead to a wrong decision.
+
+Is this manipulative? Manipulative language often uses tactics like emotional appeals, guilt-tripping, or flattery to persuade someone covertly. Here, the sentence is more of an explanation or observation about democracy rather than trying to manipulate emotions.
+
+It doesn't use strong emotional language, guilt, or flattery. It's presenting a viewpoint but not in a way that tries to coerce or control through indirect means. So, it seems like it's just stating an opinion on how democracy works without employing manipulative tactics.
+</think>
+
+NOT_
+
+[*] Result of analysis:
+    ID: 13
+    Text: Democracy is a slow process of stumbling to the right decision instead of going straight forward to the wrong one.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_
+    Was model correct: False
+------------------------------------------------------------

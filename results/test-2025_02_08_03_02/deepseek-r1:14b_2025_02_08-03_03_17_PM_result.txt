@@ -1,0 +1,32 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant."
+
+<think>
+Okay, so I need to determine whether the given sentence uses manipulative language. The sentence is: "What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant."
+
+First, let me break this down. Manipulative language often involves tactics like emotional appeals, guilt-tripping, undue flattery, or covert persuasion to influence someone's behavior or opinions.
+
+Looking at the sentence, it starts by posing a question about what's objectionable and dangerous about extremists. Then it negates the assumption that extremism itself is the issue, instead pointing out their intolerance as the real problem.
+
+I'm trying to see if there are any manipulative tactics here. Emotional appeals would involve evoking strong emotions, but this sentence seems more analytical. It presents a point of view without using emotional language or guilt-tripping someone into agreeing.
+
+It's making an argument by contrasting two points: extremism versus intolerance, suggesting that the latter is the root issue. This could be persuasive, but it doesn't employ manipulative tactics like hiding the real intent or using flattery to gain compliance.
+
+So, I think this sentence is more about presenting a reasoned argument rather than manipulating someone. Therefore, it's NOT_MANIPULATIVE.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 3
+    Text: What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

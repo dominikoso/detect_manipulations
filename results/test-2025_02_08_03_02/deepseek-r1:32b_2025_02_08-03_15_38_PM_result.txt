@@ -1,0 +1,30 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "When people learn no tools of judgment and merely follow their hopes, the seeds of political manipulation are sown."
+
+<think>
+Okay, so I need to determine whether the given sentence uses manipulative language or not. The sentence is: "When people learn no tools of judgment and merely follow their hopes, the seeds of political manipulation are sown."
+
+First, let's break down what manipulative language entails. According to the guidelines, it includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, I notice that it talks about people not learning tools of judgment and instead following their hopes, which leads to political manipulation. The sentence is more of a statement about a consequence rather than an attempt to persuade someone directly. It's pointing out a cause-effect relationship without explicitly trying to manipulate someone's emotions or actions.
+
+The structure seems analytical, discussing the lack of critical thinking skills leading to manipulation. There's no emotional appeal here; instead, it's a reflective observation on how certain behaviors can result in negative outcomes like political manipulation. The sentence doesn't use flattery or guilt-tripping techniques either.
+
+Moreover, the focus is on the broader concept rather than targeting an individual or group with persuasive tactics. It's informative and cautionary without attempting to sway someone's opinion covertly. Therefore, it doesn't fit into manipulative language as defined.
+</think>
+
+NOT_
+
+[*] Result of analysis:
+    ID: 6
+    Text: When people learn no tools of judgment and merely follow their hopes, the seeds of political manipulation are sown.
+    True Label: MANIPULATIVE
+    Model Predition: NOT_
+    Was model correct: False
+------------------------------------------------------------

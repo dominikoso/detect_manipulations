@@ -1,0 +1,30 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Bad officials are elected by good citizens who do not vote."
+
+<think>
+Okay, so I need to figure out whether the sentence "Bad officials are elected by good citizens who do not vote." uses manipulative language. Manipulative language includes things like emotional appeals, guilt-tripping, undue flattery, or other tactics meant to persuade someone covertly.
+
+Let me break this down. The sentence is talking about bad officials being elected because good citizens don't vote. Hmm. It's pointing out a consequence of not voting—specifically that it leads to bad officials getting elected. But is this trying to manipulate the reader?
+
+I think about what manipulative tactics look like. Emotional appeals would be using fear or guilt. Here, maybe there's an implication that if you don't vote, you're responsible for bad officials. That could make people feel guilty for not voting. So it's linking inaction (not voting) to a negative outcome, which might be trying to influence behavior by making you feel guilty.
+
+Is the sentence using any other manipulative tactics? It doesn't flatter anyone; instead, it criticizes those who don't vote. But by saying that good citizens (who presumably care about having good officials) are indirectly causing bad ones because they aren't voting, it's implying a failure on their part. This could be guilt-tripping.
+
+So overall, the sentence seems to use guilt as a tactic to persuade people to vote by making them feel responsible for electing bad officials if they don't. Therefore, it does employ manipulative language.
+</think>
+
+MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 7
+    Text: Bad officials are elected by good citizens who do not vote.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

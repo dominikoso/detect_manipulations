@@ -1,0 +1,36 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Everything about the left is perception, manipulation, and lies. Everything. Everything is 'Wag the Dog.' Everything is a structured deception."
+
+<think>
+Okay, so I need to figure out whether this sentence uses manipulative language. The sentence is: "Everything about the left is perception, manipulation, and lies. Everything. Everything is 'Wag the Dog.' Everything is a structured deception." 
+
+First, I should understand what manipulative language entails. From the description, it includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, it starts with "Everything about the left is perception, manipulation, and lies." That's a strong statement. The use of "everything" emphasizes that all aspects of the left are negative—perception (which can be misleading), manipulation (a key part of being manipulative), and lies. 
+
+Then, repeating "Everything" for emphasis, it continues with references to "Wag the Dog," which is a term implying distraction or deception, often used in politics. The sentence ends by saying everything is structured deception.
+
+This language is strong and negative, painting the left in a very negative light. It's using generalizations and strong terms that could be seen as attempting to influence others' opinions about the left without providing evidence or balanced viewpoints. 
+
+The repetition of "everything" and the use of loaded terms like "manipulation," "lies," and "structured deception" seem aimed at persuading the reader to view the subject negatively, which fits into manipulative tactics.
+
+So, I think this sentence does employ manipulative language because it's using strong emotional appeals and generalizations to influence opinions about a group.
+</think>
+
+The sentence uses strong emotional terms and generalizations to negatively portray a group, employing manipulative tactics. 
+
+Answer: MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 9
+    Text: Everything about the left is perception, manipulation, and lies. Everything. Everything is 'Wag the Dog.' Everything is a structured deception.
+    True Label: MANIPULATIVE
+    Model Predition: Answer: MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

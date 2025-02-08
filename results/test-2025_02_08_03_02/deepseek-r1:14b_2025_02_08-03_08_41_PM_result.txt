@@ -1,0 +1,38 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Never go outside the experience of your people."
+
+<think>
+Okay, so I'm trying to figure out whether the sentence "Never go outside the experience of your people." is manipulative or not. Let's break this down step by step.
+
+First, what defines manipulative language? It includes things like emotional appeals, guilt-tripping, undue flattery, or any kind of covert persuasion aimed at influencing someone's behavior or opinions without them realizing it. So I need to analyze the given sentence to see if it fits into any of these categories.
+
+Looking at the sentence: "Never go outside the experience of your people." It seems like a directive or an advice of some sort. The word "never" is strong and commands attention, which might be intended to influence someone's actions. But does this count as manipulative?
+
+Emotional appeals would involve trying to evoke feelings like fear or guilt. This sentence doesn't really do that; it's more about giving a rule or guideline. There's no evident attempt to make the listener feel bad or guilty for their past actions.
+
+Guilt-tripping is another tactic, which usually involves making someone feel sorry for something they did or didn't do. Again, this sentence isn't directly pointing out any specific action the person has taken, so it doesn't seem to be guilt-tripping.
+
+Undue flattery is when someone praises excessively to gain favor. This sentence doesn't flatter; instead, it's more about setting a boundary or rule.
+
+Covert persuasion would involve more subtle tactics, like using logic or authority to persuade without overt manipulation. The sentence does present something as an absolute rule ("Never"), which might be trying to influence but not necessarily through underhanded means.
+
+I think the key here is whether the sentence is influencing behavior in a manipulative way. It's giving advice, perhaps based on tradition or collective experience, but it doesn't use emotional tactics or covert persuasion. It's more of a statement about a rule rather than an attempt to control someone's emotions or feelings.
+
+So, considering all this, I don't see clear signs of manipulative language in the sentence. It's advising but not using manipulative tactics.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 17
+    Text: Never go outside the experience of your people.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

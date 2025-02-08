@@ -1,0 +1,28 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "People never lie so much as after a hunt, during a war or before an election."
+
+<think>
+Okay, I'm looking at this sentence: "People never lie so much as after a hunt, during a war or before an election." The task is to determine if it's manipulative. Manipulative language often includes emotional appeals, guilt-tripping, flattery, or covert persuasion.
+
+First, the statement talks about people lying more in certain situations: after a hunt, during a war, and before an election. It's making a generalization but not directly appealing to emotions or using any coercive tactics. It seems to be a factual observation rather than trying to influence someone's behavior or feelings.
+
+There's no emotional language used here; it's more of a statement about when lying occurs. There's no attempt to guilt-trip anyone, nor is there undue flattery. The sentence doesn't try to persuade the listener to do something but is instead presenting an observation.
+
+So, considering all that, this doesn't seem manipulative. It's more informative or observational.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 12
+    Text: People never lie so much as after a hunt, during a war or before an election.
+    True Label: MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

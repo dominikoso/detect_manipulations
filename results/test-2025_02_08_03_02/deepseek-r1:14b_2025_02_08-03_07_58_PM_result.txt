@@ -1,0 +1,34 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Turn on to politics, or politics will turn on you."
+
+<think>
+Okay, so I need to figure out whether the sentence "Turn on to politics, or politics will turn on you." is manipulative. The task defines manipulative language as including tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Let me break this down. First, I should understand what each part of the sentence is doing. The structure is a conditional statement: "Turn on to politics" (the action) followed by an implication that if you don't, then "politics will turn on you." 
+
+The second part uses a consequence as a warning, which might be intended to scare or influence the listener into taking action. So, is this guilt-tripping? Guilt-tripping often involves making someone feel guilty for not acting in a certain way. Here, the speaker is suggesting that if they don't engage with politics, negative consequences will ensue.
+
+Is there an emotional appeal here? The consequence of politics turning against them could evoke fear or anxiety about being left out or vulnerable. That's definitely emotional because it's playing on feelings of security and belonging.
+
+Guilt-tripping usually implies making someone feel bad for their inaction. In this case, the message is that if you don't engage with politics, you'll face negative outcomes. It's a bit of a scare tactic to encourage action by instilling fear of what might happen otherwise.
+
+Undue flattery isn't really present here since the sentence isn't complimenting or flattering someone excessively. The focus is more on a warning than praise. Covert persuasion is about influencing without being overt, which fits because it's presented as a consequence rather than a direct command.
+
+So putting it all together, the sentence uses fear and the implication of negative consequences to encourage action. That sounds like a manipulative tactic, specifically guilt-tripping by making the listener feel responsible for avoiding the negative outcome if they don't engage.
+</think>
+
+MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 15
+    Text: Turn on to politics, or politics will turn on you.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

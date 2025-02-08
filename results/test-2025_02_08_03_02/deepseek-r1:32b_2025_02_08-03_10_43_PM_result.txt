@@ -1,0 +1,34 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary."
+
+<think>
+Okay, so I need to figure out whether the given sentence uses manipulative language. The sentence is: "The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary." 
+
+First, I'll break down what manipulative language entails. It includes tactics like emotional appeals, guilt-tripping, undue flattery, or covert persuasion aimed at influencing behavior or opinions. So, I'm looking for whether this sentence is trying to manipulate someone's emotions or thoughts.
+
+Looking at the sentence, it seems to be making a statement about practical politics. The speaker is talking about the aim of politics being to keep people alarmed so they clamor for safety. This implies that politicians are using fear tactics by creating imaginary threats (hobgoblins). 
+
+Hmm, does this constitute manipulative language? Well, the sentence is pointing out that politicians might be using scare tactics to control the populace. It's a critique of political methods rather than directly trying to manipulate someone. The speaker isn't asking the listener to do something or feel a certain way; they're describing how others (politicians) use manipulation.
+
+Wait, but could the act of exposing this tactic itself be manipulative? Maybe if it's intended to make people distrust politicians, that's persuasive. However, the sentence is more of an observation than a direct appeal. It doesn't employ emotional language or try to guilt-trip; instead, it's analytical about political strategies.
+
+So, I think the sentence is describing manipulation rather than being manipulative itself. Therefore, it's not using manipulative tactics but discussing them.
+</think>
+
+The sentence describes how politicians use fear tactics without directly employing manipulative language itself. It's more of an analysis than a persuasive tactic.
+
+NOT_
+
+[*] Result of analysis:
+    ID: 1
+    Text: The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary.
+    True Label: MANIPULATIVE
+    Model Predition: NOT_
+    Was model correct: False
+------------------------------------------------------------

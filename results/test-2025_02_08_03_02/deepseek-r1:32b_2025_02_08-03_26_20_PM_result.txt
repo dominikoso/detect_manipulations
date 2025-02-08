@@ -1,0 +1,36 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Justice will not be served until those who are unaffected are as outraged as those who are."
+
+<think>
+Okay, I need to determine whether the given sentence uses manipulative language. The sentence is: "Justice will not be served until those who are unaffected are as outraged as those who are."
+
+First, let me break down what manipulative language entails. It includes tactics like emotional appeals, guilt-tripping, undue flattery, or covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, it seems to be making a point about justice not being served until others who aren't affected feel as upset as those who are. This could be an attempt to get people who aren't directly impacted to care more and take action. 
+
+Is this manipulative? It might be using emotional appeal by suggesting that without widespread outrage, justice won’t happen. It’s trying to influence people's emotions to provoke a reaction or change their perspective.
+
+However, sometimes statements like this are made to highlight the importance of collective concern rather than manipulate. The line can be thin here. On one hand, it's pointing out an issue about awareness and action; on the other, it could be pressuring others to feel a certain way.
+
+Considering the intent, if it's aiming to persuade through emotional means without clear evidence or logical argument, it might cross into manipulation. But if it's just stating a viewpoint, maybe not. Here, the phrasing is more of an assertion than a direct emotional appeal or guilt-trip.
+
+So I think it leans towards manipulative because it’s urging others to feel outraged as a condition for justice, which could be seen as coercive.
+</think>
+
+The sentence uses an emotional appeal to influence others by suggesting that justice depends on their outrage. This tactic is intended to provoke action through emotional means, thus qualifying as manipulative.
+
+MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 20
+    Text: Justice will not be served until those who are unaffected are as outraged as those who are.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

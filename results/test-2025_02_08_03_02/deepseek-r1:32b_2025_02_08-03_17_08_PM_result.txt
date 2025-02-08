@@ -1,0 +1,30 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "No citizen is apolitical; as a citizen, by definition, has to take interest in public affairs."
+
+<think>
+Okay, so I need to figure out whether the given sentence uses manipulative language. The sentence is: "No citizen is apolitical; as a citizen, by definition, has to take interest in public affairs."
+
+First, let me break down what manipulative language entails. It includes things like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions. So I'm looking for tactics that try to subtly influence someone's thoughts or actions through these means.
+
+Looking at the sentence, it seems to be making a statement about what defines a citizen. It says that no one can be apolitical because being a citizen requires taking interest in public affairs. This sounds more like a factual assertion rather than an attempt to persuade through manipulation.
+
+The structure is declarative; it's stating something as a fact without necessarily trying to guilt someone into action or using flattery. There's no emotional language here, just a definition of what a citizen entails.
+
+I don't see any elements that would classify this as manipulative. It doesn't appeal to emotions, assign blame, or use any persuasive tactics beyond a straightforward statement. Therefore, it doesn't fall under manipulative language.
+</think>
+
+NOT__MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 8
+    Text: No citizen is apolitical; as a citizen, by definition, has to take interest in public affairs.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT__MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

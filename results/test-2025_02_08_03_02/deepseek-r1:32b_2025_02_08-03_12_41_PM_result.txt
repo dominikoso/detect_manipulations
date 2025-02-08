@@ -1,0 +1,28 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant."
+
+<think>
+Okay, so I need to figure out whether the sentence "What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant." uses manipulative language. Manipulative language includes things like emotional appeals, guilt-tripping, undue flattery, or covert persuasion aimed at influencing behavior or opinions.
+
+First, let's break down the sentence. It starts by saying what's objectionable and dangerous about extremists isn't their extremism but their intolerance. The structure is pointing out a contrast between being extreme and being intolerant. 
+
+I think the key here is to see if it's trying to influence someone's opinion through manipulation. The statement seems more like an observation or analysis rather than a direct attempt to persuade using manipulative tactics. It doesn't use emotional language, flattery, or guilt; instead, it presents a point of view about why extremism is problematic.
+
+The sentence is making a logical argument that the real issue with extremists isn't their extremeness but their intolerance. There's no overt manipulation here—it’s more informative and analytical. So, I don't think it fits into manipulative language.
+</think>
+
+NOT_
+
+[*] Result of analysis:
+    ID: 3
+    Text: What is objectionable, what is dangerous about extremists is not that they are extreme, but that they are intolerant.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_
+    Was model correct: False
+------------------------------------------------------------

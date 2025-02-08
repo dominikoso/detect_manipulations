@@ -1,0 +1,34 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Justice will not be served until those who are unaffected are as outraged as those who are."
+
+<think>
+Okay, so I'm trying to figure out whether the sentence "Justice will not be served until those who are unaffected are as outraged as those who are." uses manipulative language. Let's break this down step by step.
+
+First, I need to understand what manipulative language entails. From what I know, it includes tactics like emotional appeals, guilt-tripping, undue flattery, or any other covert persuasion methods aimed at influencing someone's behavior or opinions without direct request.
+
+Looking at the sentence: It talks about justice not being served until unaffected people feel as outraged as those who are affected. The speaker is making a point about the importance of others feeling the same level of outrage to achieve justice. 
+
+Hmm, so the sentence seems to be pushing for a emotional response—outrage—from people who aren't directly affected. It's using the idea that collective outrage is necessary for justice. This might be an attempt to influence others' emotions and opinions about the issue.
+
+Is this considered manipulative? Well, it's making a statement about how things will only change when others feel as strongly. While it's a strong emotional appeal, I'm not sure if it's overtly manipulative. It doesn't use guilt or flattery; instead, it's more of a persuasive argument based on emotions to make a point.
+
+Wait, but the line between persuasion and manipulation can be thin. Manipulation often involves hidden agendas or tactics that aren't upfront. This sentence seems to present an opinion rather than trying to隐蔽ly influence someone. It's more of a call to action based on emotional alignment.
+
+I'm leaning towards it not being manipulative because it doesn't use overt tactics like guilt-tripping. Instead, it's making a point about the necessity of collective emotions for justice, which is a persuasive argument but not necessarily manipulative.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 20
+    Text: Justice will not be served until those who are unaffected are as outraged as those who are.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

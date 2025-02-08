@@ -1,0 +1,30 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "The ballot is stronger than the bullet."
+
+<think>
+Okay, I need to determine whether the sentence "The ballot is stronger than the bullet." uses manipulative language. Let me break this down.
+
+First, understanding what manipulative language entails: tactics like emotional appeals, guilt-tripping, undue flattery, or covert persuasion aimed at influencing behavior or opinions. So, the key is whether the sentence employs these tactics.
+
+Looking at the sentence: "The ballot is stronger than the bullet." It's a statement comparing voting (the ballot) to violence (the bullet). The message seems to promote nonviolent methods of change over violent ones. 
+
+Is this manipulative? Well, it's persuasive but not in a manipulative way. It's making an argument for peaceful means without using guilt or flattery. It's more of a motivational or ideological statement encouraging participation in democracy rather than trying to subtly influence through deceptive tactics.
+
+So, I don't think it fits the criteria for manipulative language as defined.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 19
+    Text: The ballot is stronger than the bullet.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

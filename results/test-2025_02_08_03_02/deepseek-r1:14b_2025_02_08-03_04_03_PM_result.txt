@@ -1,0 +1,36 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Political correctness to me is just intellectual terrorism. I find that really scary, and I won't be intimidated into changing my mind."
+
+<think>
+Alright, so I'm trying to figure out whether the given sentence uses manipulative language or not. The sentence is: "Political correctness to me is just intellectual terrorism. I find that really scary, and I won't be intimidated into changing my mind." 
+
+First, I need to understand what manipulative language entails. From the user's instruction, it includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Let me break down the sentence. The speaker starts by equating political correctness with intellectual terrorism. That seems like a strong emotional appeal because they're using charged terms—terrorism is a highly emotive word that evokes fear and anxiety. By labeling political correctness as such, the speaker is likely trying to provoke an emotional response from the listener.
+
+Next, the speaker says they find this "really scary." This phrase amplifies their emotional state, which could be designed to influence others' perceptions by making them see political correctness in a negative light. The use of fear here might be intentional to sway opinions or elicit agreement with their viewpoint.
+
+Then, the statement concludes with, "I won't be intimidated into changing my mind." This part is interesting because it suggests that the speaker is resisting external pressure, but phrased this way, it could also be a form of manipulation. By implying they are being intimidated (even if they don't explicitly say so), they might be setting up an emotional narrative where others feel compelled to support their stance or fear similar consequences.
+
+I should consider whether these elements fit the criteria for manipulative language. Emotional appeals definitely apply here, especially with the use of "terrorism" and "scary." The speaker isn't just stating an opinion; they're using strong, emotive language to make their point more persuasive, which can influence others' thoughts or feelings.
+
+Guilt-tripping wasn't explicitly present in this sentence, but the emotional manipulation and fear might be similar tactics. Undue flattery is less likely here since there's no compliment involved. The covert persuasion seems to be at play through the use of fear and strong language to shape opinions about political correctness.
+
+Putting it all together, the speaker uses emotive language and fear to influence others' views, which aligns with manipulative tactics. Therefore, I would classify this sentence as "MANIPULATIVE."
+</think>
+
+MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 5
+    Text: Political correctness to me is just intellectual terrorism. I find that really scary, and I won't be intimidated into changing my mind.
+    True Label: MANIPULATIVE
+    Model Predition: MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

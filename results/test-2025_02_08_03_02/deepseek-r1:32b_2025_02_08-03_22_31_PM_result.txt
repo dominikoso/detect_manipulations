@@ -1,0 +1,32 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Turn on to politics, or politics will turn on you."
+
+<think>
+Alright, I need to determine whether the given sentence uses manipulative language. The sentence is "Turn on to politics, or politics will turn on you."
+
+First, I'll break down what manipulative language entails. It includes tactics like emotional appeals, guilt-tripping, undue flattery, or covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, it seems to be making a statement about engaging with politics. The structure is "Turn on to politics, or politics will turn on you." The phrasing uses a cause and effect structure, suggesting that if someone doesn't engage (turn on to politics), then politics will in turn affect them negatively.
+
+I need to assess if this is manipulative. The sentence could be seen as trying to persuade someone to get involved in politics by implying negative consequences of not doing so. This might be an emotional appeal or a form of guilt-tripping, encouraging action out of fear of repercussions.
+
+However, I should also consider whether it's just stating a fact or providing information. On the surface, it doesn't explicitly use flattery but rather presents a choice with implied outcomes. The manipulation aspect comes from framing the choice in a way that pressures the listener to act to avoid negative consequences.
+
+So, considering all this, the sentence is using manipulative language by leveraging fear of repercussions to influence behavior.
+</think>
+
+MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 15
+    Text: Turn on to politics, or politics will turn on you.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

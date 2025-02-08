@@ -1,0 +1,32 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Bad officials are elected by good citizens who do not vote."
+
+<think>
+Okay, so I need to figure out whether the sentence "Bad officials are elected by good citizens who do not vote." uses manipulative language or not. Manipulative language includes things like emotional appeals, guilt-tripping, flattery, or any subtle persuasion aimed at changing behavior or opinions.
+
+Let me break down the sentence. The statement is making a claim that bad officials get elected because good citizens don't vote. On the surface, it's pointing out a consequence of not voting, which might be to encourage people to participate in elections.
+
+Hmm, does this count as manipulative? Well, it's suggesting that by not voting, good citizens are indirectly responsible for electing bad officials. That could be seen as guilt-tripping because it implies that their inaction leads to a negative outcome, possibly making them feel guilty about not voting. 
+
+Alternatively, the sentence is just stating a fact or correlation without explicitly telling someone what to do. But the way it's phrased could be persuasive, aiming to motivate people to vote by highlighting their potential impact on election outcomes.
+
+I'm leaning towards it being manipulative because it's using a cause-and-effect statement that might make individuals feel responsible for the outcome, thus influencing them to take action (vote) to prevent bad officials from getting elected. It's not overtly aggressive but uses a form of subtle persuasion.
+</think>
+
+The sentence suggests that inaction leads to negative outcomes, potentially guilt-tripping by making people feel responsible. 
+
+Answer: MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 7
+    Text: Bad officials are elected by good citizens who do not vote.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: Answer: MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

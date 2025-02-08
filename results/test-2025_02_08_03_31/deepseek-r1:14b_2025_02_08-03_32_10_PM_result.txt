@@ -1,0 +1,36 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Let us not seek the Republican answer or the Democratic answer but the right answer."
+
+<think>
+Okay, so I need to figure out whether the given sentence uses manipulative language. The sentence is: "Let us not seek the Republican answer or the Democratic answer but the right answer." 
+
+First, let me understand what manipulative language entails. It includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, it's calling for unity beyond political divisions. The speaker is suggesting that instead of aligning with a specific party (Republican or Democratic), we should focus on what's right. 
+
+Is this emotional? It might be appealing to people's sense of fairness and unity, but it doesn't seem overly emotional in a manipulative way. There's no guilt-tripping here; the speaker isn't blaming anyone for past actions or trying to make them feel guilty.
+
+Undue flattery? The sentence doesn't flatter any group or individual excessively. It's more about ideals than praise.
+
+Covert persuasion? The statement is advocating for a higher principle but not using underhanded tactics. It seems sincere rather than deceptive.
+
+I think the intent here is to promote a noble cause, emphasizing correctness over partisanship. Therefore, it doesn't employ manipulative tactics; instead, it's encouraging a positive stance.
+</think>
+
+The sentence advocates for unity and correctness without employing manipulative tactics. 
+
+Answer: NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 2
+    Text: Let us not seek the Republican answer or the Democratic answer but the right answer.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: Answer: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

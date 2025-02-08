@@ -1,0 +1,30 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Never go outside the experience of your people."
+
+<think>
+Alright, I need to determine whether the sentence "Never go outside the experience of your people." uses manipulative language. Let me break this down step by step.
+
+First, what defines manipulative language? It includes tactics like emotional appeals, guilt-tripping, undue flattery, or any form of covert persuasion aimed at influencing someone's behavior or opinions.
+
+Looking at the sentence: "Never go outside the experience of your people." The speaker is advising against straying from established experiences. This could be interpreted as a cautionary statement, possibly emphasizing tradition or collective knowledge. 
+
+I don't see any overt emotional appeals here; it's more of a directive than an emotional plea. There's no flattery involved either—it's not complimenting someone. Also, there's no attempt to make the listener feel guilty for past actions or inactions.
+
+The sentence seems to be a statement of advice based on experience rather than trying to manipulate through any of the mentioned tactics. It doesn't employ guilt or manipulation; it's more advisory.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 17
+    Text: Never go outside the experience of your people.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

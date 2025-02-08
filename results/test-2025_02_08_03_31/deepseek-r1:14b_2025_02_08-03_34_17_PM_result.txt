@@ -1,0 +1,36 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Bad officials are elected by good citizens who do not vote."
+
+<think>
+Alright, I need to determine whether the sentence "Bad officials are elected by good citizens who do not vote." uses manipulative language. Let me break this down step by step.
+
+First, understanding what manipulative language entails is crucial. It includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion meant to influence behavior or opinions. So, I'm looking for elements in the sentence that might serve such purposes.
+
+The sentence talks about bad officials being elected because good citizens don't vote. Let's analyze each part. The subject is "bad officials," which immediately sets a negative tone. The predicate states they are elected by "good citizens who do not vote." Here, the phrase "good citizens" could be seen as flattery or praise towards those individuals, but it's then contrasted with them not voting, implying their inaction leads to negative outcomes.
+
+Guilt-tripping is a common manipulative tactic where someone is made to feel responsible for an issue. In this case, the implication is that by not voting, these good citizens are indirectly causing bad officials to be elected. This could make those individuals feel guilty or culpable for the situation, which is a form of manipulation.
+
+Additionally, the sentence uses a causal relationship: lack of voting leads to bad outcomes. While this may factually hold true, it's framed in a way that aims to persuade people to vote by playing on their sense of responsibility and guilt. This persuasive intent suggests an element of manipulation.
+
+I should also consider if there are other manipulative tactics present. Emotional appeals might be less here since the language is relatively neutral, but the structure does create a narrative where inaction (not voting) has negative consequences, which can evoke emotions like guilt or fear.
+
+Overall, while the statement might contain a true element about elections and voting, its phrasing is designed to influence the listener's behavior by making them feel responsible for the negative outcome of electing bad officials. This aligns with manipulative tactics such as guilt-tripping.
+</think>
+
+The sentence uses guilt-tripping by implying that good citizens' inaction leads to negative outcomes, thus encouraging voting through manipulation.
+
+MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 7
+    Text: Bad officials are elected by good citizens who do not vote.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: MANIPULATIVE
+    Was model correct: False
+------------------------------------------------------------

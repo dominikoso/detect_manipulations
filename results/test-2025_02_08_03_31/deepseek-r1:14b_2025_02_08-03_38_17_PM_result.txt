@@ -1,0 +1,32 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "A good tactic is one your people enjoy."
+
+<think>
+Alright, so I need to figure out whether the sentence "A good tactic is one your people enjoy." uses manipulative language. Let me break this down step by step.
+
+First, what defines manipulative language? It includes things like emotional appeals, guilt-tripping, undue flattery, or any subtle persuasion aimed at influencing behavior or opinions. The goal here is to determine if the sentence employs such tactics.
+
+Looking at the sentence: "A good tactic is one your people enjoy." On the surface, it's talking about tactics and how they're received by a group of people referred to as "your people." The phrase "enjoy" suggests that these tactics are pleasing or satisfying to them.
+
+I need to assess if this is manipulative. Let's consider emotional appeals: does the sentence evoke any emotions? It seems neutral, more like an observation than an appeal. Guilt-tripping would involve making someone feel guilty, but I don't see that here. Undue flattery is excessive praise meant to influence; again, the statement doesn't seem overly flattering.
+
+The sentence could be part of advice on leadership or management, suggesting that effective tactics are those that are well-received by the group. It's more about effectiveness than manipulation. There's no overt attempt to persuade someone against their will or hidden agenda.
+
+So, while the sentence does talk about influencing behavior (since it's about tactics), it doesn't employ manipulative tactics like emotional pressure or flattery. Instead, it's a statement about what makes a tactic good—something that is enjoyable to others. Therefore, I don't think this qualifies as manipulative.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 18
+    Text: A good tactic is one your people enjoy.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

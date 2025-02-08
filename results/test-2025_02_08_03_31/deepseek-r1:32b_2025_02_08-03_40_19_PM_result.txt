@@ -1,0 +1,34 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Let us not seek the Republican answer or the Democratic answer but the right answer."
+
+<think>
+Alright, I need to determine whether the given sentence uses manipulative language. The sentence is: "Let us not seek the Republican answer or the Democratic answer but the right answer." 
+
+First, let's break down what manipulative language entails. It includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, it's suggesting that instead of considering answers from specific political parties (Republican or Democratic), we should seek the right answer. This phrasing seems to be promoting a neutral approach, avoiding partisanship by emphasizing finding the correct solution regardless of party lines.
+
+I don't see any emotional appeals here. The tone is more about logic and fairness rather than stirring emotions. There's no guilt-tripping involved; it's not making someone feel bad for their actions or beliefs. Also, there's no undue flattery—no excessive praise aimed at winning favor. Instead, the focus is on seeking correctness over partisanship.
+
+The sentence could be seen as persuasive in encouraging a balanced approach, but persuasion isn't inherently manipulative unless it uses deceptive tactics. In this case, the argument is straightforward and doesn't employ covert methods to influence behavior or opinions. It's more about appealing to reason than manipulating emotions.
+
+Therefore, I don't think this sentence falls under manipulative language as defined.
+</think>
+
+The sentence advocates for a neutral stance by seeking correctness over partisan answers without using emotional appeals, guilt, flattery, or deceit. 
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 2
+    Text: Let us not seek the Republican answer or the Democratic answer but the right answer.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

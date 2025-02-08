@@ -1,0 +1,32 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "No citizen is apolitical; as a citizen, by definition, has to take interest in public affairs."
+
+<think>
+Alright, so I need to determine whether the given sentence uses manipulative language. The sentence is: "No citizen is apolitical; as a citizen, by definition, has to take interest in public affairs." 
+
+First, let me understand what manipulative language entails. According to the prompt, it includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence, it's making a statement about citizenship and political involvement. It starts with "No citizen is apolitical," which suggests that all citizens have an inherent obligation to be interested in public affairs. The second part reinforces this by saying that being a citizen means they must take interest. 
+
+I don't see any overt emotional appeals here, like trying to make someone feel guilty or using flattery. It's more of a declarative statement presenting a definition or expectation. It seems to be stating a fact as the speaker perceives it, rather than attempting to persuade through manipulation.
+
+Maybe someone could argue that by defining citizenship in this way, it's implying that not being interested is a failure, but I don't think that's manipulative. It feels more like an assertion of what being a citizen entails rather than using tactics to influence behavior covertly.
+
+So, considering all this, the sentence doesn't seem to use manipulative tactics. It's informative and declarative without trying to guilt-trip or emotionally appeal.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 8
+    Text: No citizen is apolitical; as a citizen, by definition, has to take interest in public affairs.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

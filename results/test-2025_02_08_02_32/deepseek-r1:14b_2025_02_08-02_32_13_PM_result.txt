@@ -1,0 +1,38 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Could you clarify the data, please?"
+
+<think>
+Alright, let's try to figure out whether the sentence "Could you clarify the data, please?" is manipulative or not. I'm a bit new to this concept, so I'll take it step by step.
+
+First, I need to understand what manipulative language entails. From the problem statement, manipulative tactics include emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions. So, if a sentence uses any of these tactics, it should be classified as "MANIPULATIVE."
+
+Looking at the given sentence: "Could you clarify the data, please?" It seems like a polite request for clarification. The speaker is asking someone to explain some data, which sounds reasonable and straightforward.
+
+I should break down the components of this sentence. "Could you" is a polite way to ask for something without being demanding. Adding "please" at the end further softens the request, making it more courteous. There's no hidden agenda or emotional appeal here; it's just a direct yet polite question.
+
+Is there any element of guilt-tripping? That would involve making someone feel guilty if they don't comply. For example, phrases like "You'd help me out, wouldn't you?" But in this case, the speaker isn't implying any negative consequences if the other person doesn't clarify the data. It's simply a request.
+
+What about emotional appeals? Emotional language might include words that evoke feelings like fear or guilt. This sentence is neutral and factual, asking for clarification without invoking emotions. There's no attempt to make the listener feel bad or pressured.
+
+Undue flattery would involve excessive praise aimed at influencing someone's actions. The sentence doesn't contain any compliments or flattery towards the other person, so that aspect isn't present either.
+
+Covert persuasion is a bit more subtle but involves trying to influence without being overtly manipulative. However, since this sentence is straightforward and not hiding any persuasive tactics, it doesn't fall into this category either.
+
+I should also consider if there's any ambiguity or hidden meaning. Sometimes, even polite requests can be manipulative if they imply something else. But in this case, the intent seems clear: the speaker needs clarification and is asking politely for it without any ulterior motives.
+
+To sum up, the sentence doesn't use emotional appeals, guilt, flattery, or any covert persuasion techniques. It's a straightforward request without any hidden agenda. Therefore, it shouldn't be classified as manipulative.
+</think>
+
+NOT_MANIPULATIVE[*] Result of analysis:
+    ID: 4
+    Text: Could you clarify the data, please?
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

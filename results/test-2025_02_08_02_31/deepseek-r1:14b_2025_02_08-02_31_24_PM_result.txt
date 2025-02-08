@@ -1,0 +1,28 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Only fools disagree with me!"
+
+<think>
+Alright, let's tackle this query. The user wants to classify a sentence as either manipulative or not. They provided the sentence: "Only fools disagree with me!"
+
+First, I need to understand what counts as manipulative language here. It includes emotional appeals, guilt-tripping, flattery, or any hidden persuasion tactics.
+
+Looking at the sentence, it's saying that anyone who disagrees is a fool. That sounds like name-calling and putting down others. By labeling disagreeers as fools, it pressures them to agree instead of engaging in constructive dialogue.
+
+This tactic might be intended to make others feel bad for disagreeing, thus discouraging dissent. It uses emotional appeal by making the other person feel inferior or foolish if they don't comply.
+
+So, yes, this definitely employs manipulative tactics. The user is likely trying to identify manipulative language, maybe in a context like detecting deception or analyzing communication strategies.
+</think>
+
+MANIPULATIVE[*] Result of analysis:
+    ID: 3
+    Text: Only fools disagree with me!
+    True Label: MANIPULATIVE
+    Model Predition: MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

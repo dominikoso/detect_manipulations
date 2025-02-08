@@ -1,0 +1,26 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Let's try to find a solution."
+
+<think>
+Okay, I need to determine whether the sentence "Let's try to find a solution." is manipulative. The user has specified that manipulative language includes things like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+First, let me break down the sentence. It starts with an invitation using "Let's," which suggests collaboration or teamwork. The verb "try" indicates a willingness to attempt something together. The phrase "find a solution" shows a goal-oriented approach without any negative connotations.
+
+I don't see any elements of emotional appeal here; there's no use of fear, guilt, or pity. There's also no flattery involved—it's a straightforward statement aimed at problem-solving. It doesn't attempt to persuade someone covertly but rather invites cooperation.
+
+So, the sentence is encouraging and collaborative without using manipulative tactics.
+</think>
+
+NOT_MANIPULATIVE[*] Result of analysis:
+    ID: 2
+    Text: Let's try to find a solution.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

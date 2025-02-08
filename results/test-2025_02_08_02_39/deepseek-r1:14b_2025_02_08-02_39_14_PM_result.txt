@@ -1,0 +1,36 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Let us not seek the Republican answer or the Democratic answer but the right answer."
+
+<think>
+Okay, so I'm trying to figure out whether the sentence "Let us not seek the Republican answer or the Democratic answer but the right answer." is manipulative. The task is to classify it as either MANIPULATIVE or NOT_MANIPULATIVE based on whether it uses manipulative tactics like emotional appeals, guilt-tripping, undue flattery, or other covert persuasion methods.
+
+First, I need to understand what manipulative language entails. From the instructions, it includes things like emotional appeals (using emotions to sway opinion), guilt-tripping (making someone feel guilty to influence their actions), undue flattery (excessive praise to gain favor), and any form of covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence: "Let us not seek the Republican answer or the Democratic answer but the right answer." The speaker is suggesting that instead of aligning with a specific political party's stance, we should focus on what's correct. 
+
+I think the key here is to determine if this statement is trying to persuade someone in a way that's manipulative. It seems to be promoting unity or impartiality by suggesting that the right answer transcends party lines. This could be seen as a call for people to rise above partisanship and focus on what's correct.
+
+However, is this manipulative? Manipulation usually involves tactics designed to influence without clear justification or in ways that aren't straightforward. In this case, the speaker is making an argument based on the correctness of the answer, not necessarily appealing to emotions or trying to guilt someone into agreeing. It's more of a reasoned statement encouraging a fair approach.
+
+Another angle: could it be seen as guilt-tripping? The sentence doesn't explicitly call out Republicans or Democrats; instead, it suggests that both sides should be avoided in favor of the right answer. It might be implying that partisanship is wrong but without directly addressing individuals with guilt.
+
+Alternatively, maybe it's using flattery by appealing to someone's sense of fairness or integrity. But undue flattery would involve excessive praise, which isn't present here. The statement is more about a principle than complimenting anyone.
+
+In summary, the sentence seems to encourage a principled approach rather than using manipulative tactics. It doesn’t employ emotional appeals, guilt, or flattery but instead makes an argument based on correctness and unity. Therefore, it's likely NOT_MANIPULATIVE.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 2
+    Text: Let us not seek the Republican answer or the Democratic answer but the right answer.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

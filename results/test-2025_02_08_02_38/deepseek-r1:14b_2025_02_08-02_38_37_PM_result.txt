@@ -1,0 +1,40 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary."
+
+<think>
+Alright, I need to determine whether the given sentence uses manipulative language. Let me break down what manipulative language entails: emotional appeals, guilt-tripping, undue flattery, or any covert persuasion meant to influence behavior or opinions.
+
+The sentence is: "The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary."
+
+First, I'll analyze the content. The speaker is discussing political tactics where the goal is to alarm people with imagined threats (hobgoblins). By doing so, they suggest that the populace becomes eager to follow leadership for safety.
+
+Now, looking for manipulative tactics:
+
+1. **Emotional Appeals**: The sentence uses words like "alarmed" and "clamorous," which evoke fear and anxiety. This is an emotional appeal to stir feelings in the audience.
+   
+2. **Guilt-Tripping**: There's no direct attempt to make others feel guilty, so this isn't applicable here.
+
+3. **Undue Flattery**: The sentence doesn't flatter anyone; instead, it criticizes political strategies.
+
+4. **Covert Persuasion**: The speaker is explaining a strategy that aims to influence people's willingness to follow by creating fear of imaginary threats. This tactic is designed to persuade without overt force, fitting the definition of covert persuasion.
+
+Considering these points, the sentence employs emotional appeals and describes a manipulative tactic used in politics. Therefore, it uses manipulative language.
+</think>
+
+The sentence discusses political tactics that alarm people with imagined threats, aiming to influence them emotionally and persuasively.
+
+**MANIPULATIVE**
+
+[*] Result of analysis:
+    ID: 1
+    Text: The whole aim of practical politics is to keep the populace alarmed (and hence clamorous to be led to safety) by menacing it with an endless series of hobgoblins, all of them imaginary.
+    True Label: MANIPULATIVE
+    Model Predition: **MANIPULATIVE**
+    Was model correct: False
+------------------------------------------------------------

@@ -1,0 +1,24 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Only fools disagree with me!"
+
+<think>
+Okay, I need to classify the sentence "Only fools disagree with me!" as either manipulative or not. Let's break this down step by step.
+
+First, what defines manipulative language? It includes things like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Looking at the sentence: "Only fools disagree with me!" The speaker is making a broad generalization that anyone who disagrees is a fool. This is using name-calling to label people who don't agree with them as idiots. It's an emotional appeal because it's trying to make others feel bad for not agreeing, which can lead them to conform to avoid being seen negatively.
+
+Is this guilt-tripping? Well, it's more of a direct insult than guilt, but the intent is to manipulate others into agreement by making disagreement seem foolish or socially unacceptable. It uses emotional tactics to persuade.
+
+So, does this fit under manipulative language? Yes, because it's using emotional appeals and name-calling to influence others' opinions or actions.
+</think>
+
+The sentence "Only fools disagree with me!" employs emotional appeals and name-calling to persuade others into agreement by making disagreement seem foolish. This is a form of manipulative tactics.
+
+**Classification: MANIPULATIVE**

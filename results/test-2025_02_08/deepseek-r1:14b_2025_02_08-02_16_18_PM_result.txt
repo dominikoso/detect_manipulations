@@ -1,0 +1,26 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Let's try to find a solution."
+
+<think>
+Okay, so I need to figure out whether the sentence "Let's try to find a solution." is manipulative. Hmm, let me break this down step by step.
+
+First, what counts as manipulative language? From the problem statement, it includes things like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion intended to influence behavior or opinions. So I'm looking for signs of those tactics in the given sentence.
+
+The sentence is "Let's try to find a solution." At first glance, this seems pretty neutral and straightforward. It’s suggesting collaboration towards finding an answer or way out of a problem. There's no obvious attempt to manipulate emotions here. No strong emotional words like "awful" or "terrible" that might provoke feelings.
+
+Guilt-tripping usually involves making someone feel guilty about something they did or didn't do. This sentence doesn’t point fingers or imply blame, so I don’t see any guilt-tripping going on.
+
+Undue flattery is when someone excessively praises another to gain favor or influence. The sentence doesn't compliment anyone; it's more of an invitation to work together rather than flatter.
+
+Covert persuasion tactics are more subtle and aimed at influencing without being overt. This sentence isn't really trying to persuade in a hidden way; it's just making a suggestion.
+
+I think the key here is that the sentence is collaborative and problem-solving oriented. It doesn't use any manipulative techniques but rather encourages cooperation. So, based on this analysis, I don't see any signs of manipulation.
+</think>
+
+NOT_MANIPULATIVE

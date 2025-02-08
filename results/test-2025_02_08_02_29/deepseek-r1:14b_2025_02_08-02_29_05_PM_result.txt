@@ -1,0 +1,24 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Could you clarify the data, please?"
+
+<think>
+Okay, so I need to figure out whether the sentence "Could you clarify the data, please?" is manipulative or not. Let me start by understanding what manipulative language entails. It includes things like emotional appeals, guilt-tripping, undue flattery, or any other covert persuasion tactics meant to influence someone's behavior or opinions.
+
+Looking at the given sentence: "Could you clarify the data, please?" The speaker is making a request for clarification on some data. This seems pretty straightforward and polite. They're not using any emotional language, nor are they trying to guilt-trip anyone or give excessive flattery. It's just a simple request.
+
+I should consider if there's an underlying intent here. Sometimes, even a polite request can be manipulative if the person is trying to control someone else's actions indirectly. But in this case, the sentence doesn't have that tone. It's more about seeking information rather than trying to influence or persuade someone.
+
+Also, the use of "please" at the end makes it sound courteous, which aligns with being a polite request rather than manipulative. There's no hidden agenda apparent here; it's just asking for help in understanding something better.
+
+I don't think there's any guilt involved either. The speaker isn't implying that the other person has done something wrong or is at fault if they can't clarify the data. It's a neutral question aimed solely at getting clarity without pressuring the recipient.
+
+So, after analyzing the sentence from different angles and considering the definitions of manipulative language, it seems clear that this sentence doesn't employ any manipulative tactics. It's just a straightforward request.
+</think>
+
+NOT_MANIPULATIVE[*] Result of analysis:    ID: 4    Text: Could you clarify the data, please?    True Label: NOT_MANIPULATIVE    Model Predition: NOT_MANIPULATIVE    Was model correct: True------------------------------------------------------------

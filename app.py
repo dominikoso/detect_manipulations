@@ -9,7 +9,8 @@ import ollama
 def clean_ai_response(response: str) -> str:
     response = response.replace("Answer: ", "")
     response = response.replace(" ", "")
-    response = response.replace("NOT_", "NOT_MANIPULATIVE")
+    if response == "NOT_":
+        response = "NOT_MANIPULATIVE"
     response = response.upper()
     return response
 

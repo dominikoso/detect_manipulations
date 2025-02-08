@@ -20,7 +20,7 @@ def analyze_sentence(sentence: str, model_name: str = "deepseek-r1:14b") -> Tupl
     prompt = f"""
 You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
 
-Classify the given sentence using ONLY ONE WORD:
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
 - "MANIPULATIVE" if the sentence employs such tactics.
 - "NOT_MANIPULATIVE" if it does not.
 
@@ -51,7 +51,7 @@ def main():
         else:
             isCorrect = False
         with open(filename, "+a") as f:
-            f.write("\n[*] Result of analysis:\n")
+            f.write("\n\n[*] Result of analysis:\n")
             f.write(f"    ID: {i}\n")
             f.write(f"    Text: {text}\n")
             f.write(f"    True Label: {true_label}\n")

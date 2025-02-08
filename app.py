@@ -6,6 +6,14 @@ from typing import Tuple
 import ollama
 
 
+def clean_ai_response(response: str) -> str:
+    response = response.replace("Answer: ", "")
+    response = response.replace(" ", "")
+    response = response.replace("NOT_", "NOT_MANIPULATIVE")
+    response = response.upper()
+    return response
+
+
 def load_data(csv_path: str):
     data = []
     with open(csv_path, "r", encoding="utf-8") as f:
@@ -48,10 +56,7 @@ def perform_test_per_model(dataset: list, model_name: str, filedir: str):
             f'[*] [{model_name}] Analyzing text "{text}" with true label: {true_label}'
         )
         model_output, filename = analyze_sentence(text, filedir, model_name)
-        if (
-            model_output.replace(" ", "").replace("NOT_", "NOT_MANIPULATIVE").upper()
-            == true_label.upper()
-        ):
+        if clean_ai_response(model_output) == true_label.upper():
             isCorrect = True
             correct += 1
         else:

@@ -1,0 +1,5 @@
+Text,Label
+"I think you are incompetent.",MANIPULATIVE
+"Let's try to find a solution.",NOT_MANIPULATIVE
+"Only fools disagree with me!",MANIPULATIVE
+"Could you clarify the data, please?",NOT_MANIPULATIVE

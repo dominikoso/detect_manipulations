@@ -1,3 +1,0 @@
-Bazując na wstępnej analizie wyników:
-- DeepSeek R1 14b (60% poprawności)
-- DeepSeek R1 32b (15% Mnóstwo błędów i niezgodnych odpowiedzi)

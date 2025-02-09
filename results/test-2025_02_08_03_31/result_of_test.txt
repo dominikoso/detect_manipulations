@@ -1,2 +1,0 @@
-Wynik testu:
-- 14b (75% skuteczności)

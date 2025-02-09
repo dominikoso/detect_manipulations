@@ -1,3 +1,0 @@
-Bazując na wynikach testów przeprowadzonych z uzyciem modeli LLM otrzymaliśmy następujące wyniki
-- DeepSeek R1 14b (75% poprawności)
-- DeepSeek R1 32b (100% poprawności)

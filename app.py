@@ -43,7 +43,11 @@ Sentence: "{sentence}"
         filedir, f"{model_name}_{d.strftime('%Y_%m_%d-%I_%M_%S_%p')}_result.txt"
     )
     open(filename, "w").write(prompt + "\n" + result["response"])
-    return (result["response"].splitlines()[-1], filename)
+    try: 
+        return (result["response"].splitlines()[-1], filename)
+    except Exception as e:
+        print(result['response'])
+        raise e
 
 
 def perform_test_per_model(dataset: list, model_name: str, filedir: str):
@@ -56,20 +60,23 @@ def perform_test_per_model(dataset: list, model_name: str, filedir: str):
         print(
             f'[*] [{model_name}] Analyzing text "{text}" with true label: {true_label}'
         )
-        model_output, filename = analyze_sentence(text, filedir, model_name)
-        if clean_ai_response(model_output) == true_label.upper():
-            isCorrect = True
-            correct += 1
-        else:
-            isCorrect = False
-        with open(filename, "+a") as f:
-            f.write("\n\n[*] Result of analysis:\n")
-            f.write(f"    ID: {i}\n")
-            f.write(f"    Text: {text}\n")
-            f.write(f"    True Label: {true_label}\n")
-            f.write(f"    Model Predition: {model_output}\n")
-            f.write(f"    Was model correct: {isCorrect}\n")
-            f.write("-" * 60 + "\n")
+        try:
+            model_output, filename = analyze_sentence(text, filedir, model_name)
+            if clean_ai_response(model_output) == true_label.upper():
+                isCorrect = True
+                correct += 1
+            else:
+                isCorrect = False
+            with open(filename, "+a") as f:
+                f.write("\n\n[*] Result of analysis:\n")
+                f.write(f"    ID: {i}\n")
+                f.write(f"    Text: {text}\n")
+                f.write(f"    True Label: {true_label}\n")
+                f.write(f"    Model Predition: {model_output}\n")
+                f.write(f"    Was model correct: {isCorrect}\n")
+                f.write("-" * 60 + "\n")
+        except Exception:
+            print(f"Error occured while analysing {text} with {model_name}")
 
     total = len(dataset)
     accuracy = correct / total if total > 0 else 0
@@ -80,7 +87,8 @@ def main():
     dataset = load_data("test_data.csv")
     models = [
         "deepseek-r1:14b",
-        "deepseek-r1:32b",
+        "mistral",
+        "llama3:8b-text"
     ]
     d = datetime.now()
     filedir = f"results/test-{d.strftime('%Y_%m_%d_%I_%M')}"

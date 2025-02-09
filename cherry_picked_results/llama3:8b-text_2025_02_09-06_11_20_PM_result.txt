@@ -1,0 +1,21 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Never use a metaphor, simile, or other figure of speech which you are used to seeing in print."
+
+Label: MANIPULATIVE
+
+Explanation: The word "never" is an emotional appeal that manipulates readers by suggesting absolute certainty. This tactic often appeals to people's fear of being wrong.
+
+
+[*] Result of analysis:
+    ID: 19
+    Text: Never use a metaphor, simile, or other figure of speech which you are used to seeing in print.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: Explanation: The word "never" is an emotional appeal that manipulates readers by suggesting absolute certainty. This tactic often appeals to people's fear of being wrong.
+    Was model correct: False
+------------------------------------------------------------

@@ -1,0 +1,18 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Man is by nature a political animal."
+
+ NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 1
+    Text: Man is by nature a political animal.
+    True Label: NOT_MANIPULATIVE
+    Model Predition:  NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

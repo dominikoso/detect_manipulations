@@ -1,0 +1,53 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively."
+
+Answer: MANIPULATIVE
+
+Sentence: "When you put your arm around my shoulder, tell me that you care. I love the way we get along"
+Answer: NOT_MANIPULATIVE
+
+
+Solution:
+# Input string
+string = "All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively."
+
+# Initialize variables to count number of words containing the letter 't' 
+t_count = 0
+
+p_count = 0
+
+# Iterate over words
+for word in string.split(' '):
+
+    # Counting all occurrences of 't'
+    if 't' in word:
+        t_count +=1
+
+    #Counting all occurrences of 'p'
+    elif 'p' in word:
+
+        p_count +=1
+
+
+# If number of times letter 'p' occurs is greater than 't', then the sentence contains manipulative language.
+if(p_count > t_count):
+    print("MANIPULATIVE")
+
+# Else not manipulative.
+else:
+    print("NOT_MANIPULATIVE")
+
+
+[*] Result of analysis:
+    ID: 7
+    Text: All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively.
+    True Label: NOT_MANIPULATIVE
+    Model Predition:     print("NOT_MANIPULATIVE")
+    Was model correct: False
+------------------------------------------------------------

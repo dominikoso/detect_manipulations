@@ -1,0 +1,32 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively."
+
+<think>
+Okay, I need to determine whether the given sentence uses manipulative language. The sentence is: "All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively."
+
+First, let me understand what manipulative language entails. It includes tactics like emotional appeals, guilt-tripping, undue flattery, or any form of covert persuasion aimed at influencing someone's behavior or opinions without direct instruction.
+
+Looking at the sentence, it seems to be making a statement about prudence and risk calculation. The tone is philosophical rather than persuasive. There are no emotional triggers, no attempts to make the reader feel guilty, or any flattery involved. It's more of an assertion based on reasoning.
+
+The sentence is structured as a logical argument: all actions have risks, so instead of avoiding danger, one should assess risks and act decisively. This doesn't employ manipulative tactics; it's more about presenting a viewpoint or advice in a reasoned manner without trying to influence through hidden agendas.
+
+I don't detect any elements that would classify this as manipulative. There's no attempt to guilt the reader into agreeing with something, nor is there any use of emotional language. It's straightforward and focused on conveying an idea based on prudence and calculated risk.
+
+So, considering all this, I conclude that the sentence does not use manipulative language.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 7
+    Text: All courses of action are risky, so prudence is not in avoiding danger, but calculating risk and acting decisively.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

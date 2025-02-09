@@ -1,0 +1,32 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Never use a metaphor, simile, or other figure of speech which you are used to seeing in print."
+
+<think>
+Alright, let's analyze this sentence. The user is asking me to determine whether the given sentence uses manipulative language. I need to decide between "MANIPULATIVE" and "NOT_MANIPULATIVE".
+
+First, I'll read the sentence: "Never use a metaphor, simile, or other figure of speech which you are used to seeing in print."
+
+Breaking it down, the speaker is giving advice about writing style, specifically cautioning against using common figures of speech. They're advising against something, but without any emotional appeal or guilt-tripping. It's more of a suggestion based on style rather than trying to persuade someone covertly.
+
+I don't detect any tactics like flattery or fear appeals here. The language is straightforward and instructional. There's no hidden agenda; it's simply advice from one writer to another, perhaps.
+
+So, considering all this, the sentence isn't using manipulative tactics. It's a clear, direct piece of writing advice.
+</think>
+
+The sentence provides advice on writing style without employing any manipulative tactics. It is straightforward and not aimed at influencing behavior or opinions covertly.
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 19
+    Text: Never use a metaphor, simile, or other figure of speech which you are used to seeing in print.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------

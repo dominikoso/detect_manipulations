@@ -1,0 +1,30 @@
+
+You are a text classification tool tasked with determining if a sentence uses manipulative language. Manipulative language includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions.
+
+Classify the given sentence using ONLY ONE WORD, do not add any special characters:
+- "MANIPULATIVE" if the sentence employs such tactics.
+- "NOT_MANIPULATIVE" if it does not.
+
+Sentence: "Man is by nature a political animal."
+
+<think>
+Okay, so I need to determine whether the sentence "Man is by nature a political animal." uses manipulative language. Let me break this down step by step. 
+
+First, what defines manipulative language? It includes tactics like emotional appeals, guilt-tripping, undue flattery, or any covert persuasion aimed at influencing behavior or opinions. So I'm looking for signs of those tactics in the given sentence.
+
+The sentence is "Man is by nature a political animal." At first glance, this seems to be making a statement about human nature, possibly referencing Aristotle since he referred to humans as political animals. The wording is factual and descriptive without any emotional language or persuasive techniques.
+
+I should consider whether there's an attempt to influence someone's opinion here. It doesn't seem so; it's more of a declarative statement. There are no emotional appeals, guilt elements, flattery, or any other manipulative tactics present. It's straightforward and informative.
+
+Maybe I'm overcomplicating this. The sentence is simply stating a fact about human nature without trying to persuade someone to do something or feel a certain way. Therefore, it doesn't employ manipulative language.
+</think>
+
+NOT_MANIPULATIVE
+
+[*] Result of analysis:
+    ID: 1
+    Text: Man is by nature a political animal.
+    True Label: NOT_MANIPULATIVE
+    Model Predition: NOT_MANIPULATIVE
+    Was model correct: True
+------------------------------------------------------------
